@@ -1,9 +1,10 @@
+caption-zh: 所有TOC的目录
 created: 20240228025235653
 creator: sicheng
-modified: 20240228025841986
+modified: 20240228033000465
 modifier: sicheng
 tags: sicheng TOC
 title: TOC
 type: text/vnd.tiddlywiki
 
-<<table-dynamic filter:"[tag[TOC]]" fields:"tbl-expand title" stateTiddler:"exmp03" class:"w-100 thead-dark" caption:"''包含所有TOC''">>
+<<table-dynamic filter:"[tag[TOC]]" fields:"tbl-expand title caption-zh" stateTiddler:"exmp03" class:"w-100 thead-dark" caption:"''包含所有TOC''">>

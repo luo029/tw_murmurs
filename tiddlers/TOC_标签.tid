@@ -1,0 +1,13 @@
+created: 20240228032601678
+creator: sicheng
+modified: 20240228033514540
+modifier: sicheng
+tags: sicheng TOC Home
+title: TOC_标签
+type: text/vnd.tiddlywiki
+
+\define sv-exclude-tags() sicheng 
+
+查找 <$edit-text tiddler="$:/temp/demo/dtable/search" filed=text tag=input default=""/> <$button set="$:/temp/demo/dtable/search" setTo="" tooltip="clear searchbox">x</$button>
+
+<$macrocall $name=table-dynamic filter="[tags[]sort[title]search{$:/temp/demo/dtable/search}]" class="w-100" fields="tbl-expand title created"  caption="''条目''" />

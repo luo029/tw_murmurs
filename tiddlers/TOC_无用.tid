@@ -1,0 +1,14 @@
+caption-zh: tag“无用”
+created: 20240228030747433
+creator: sicheng
+modified: 20240228033057142
+modifier: sicheng
+tags: sicheng TOC Home
+title: TOC_无用
+type: text/vnd.tiddlywiki
+
+\define sv-exclude-tags() 无用
+
+查找 <$edit-text tiddler="$:/temp/demo/dtable/search" filed=text tag=input default=""/> <$button set="$:/temp/demo/dtable/search" setTo="" tooltip="clear searchbox">x</$button>
+
+<$macrocall $name=table-dynamic filter="[tag[无用]search{$:/temp/demo/dtable/search}]" class="w-100" fields="tbl-expand title created "  caption="''条目''" />

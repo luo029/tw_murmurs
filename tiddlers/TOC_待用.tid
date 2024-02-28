@@ -1,0 +1,15 @@
+caption-zh: tag“待用”
+created: 20240228031109738
+creator: sicheng
+modified: 20240228033108648
+modifier: sicheng
+tags: sicheng TOC Home
+title: TOC_待用
+
+\define sv-exclude-tags() sicheng 待用
+
+查找 <$edit-text tiddler="$:/temp/demo/dtable/search" filed=text tag=input default=""/> <$button set="$:/temp/demo/dtable/search" setTo="" tooltip="clear searchbox">x</$button>
+
+(表格中，Tags已经去掉"sicheng"和"待用")
+
+<$macrocall $name=table-dynamic filter="[tag[待用]search{$:/temp/demo/dtable/search}]" class="w-100" fields="tbl-expand title created tags"  caption="''条目''" />
