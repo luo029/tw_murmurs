@@ -1,0 +1,13 @@
+caption-zh: 句子
+created: 20240228122251125
+creator: sicheng
+modified: 20240228122630547
+modifier: sicheng
+tags: Home TOC
+title: TOC_摘录
+type: text/vnd.tiddlywiki
+
+查找 <$edit-text tiddler="$:/temp/demo/dtable/search" filed=text tag=input default=""/> <$button set="$:/temp/demo/dtable/search" setTo="" tooltip="clear searchbox">x</$button>
+
+
+<$macrocall $name=table-dynamic filter="[tag[摘录] search{$:/temp/demo/dtable/search}]" class="w-100" fields="tbl-expand title created "  caption="''条目''" />
