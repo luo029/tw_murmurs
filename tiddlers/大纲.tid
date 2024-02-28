@@ -1,6 +1,13 @@
-caption-zh: 
-created: 20240228095634890
+created: 20240228112809376
 creator: sicheng
-modified: 20240228095638780
+modified: 20240228112827143
 modifier: sicheng
 title: 大纲
+type: text/vnd.tiddlywiki
+
+
+
+查找 <$edit-text tiddler="$:/temp/demo/dtable/search" filed=text tag=input default=""/> <$button set="$:/temp/demo/dtable/search" setTo="" tooltip="clear searchbox">x</$button>
+
+
+<$macrocall $name=table-dynamic filter="[tag[大纲] search{$:/temp/demo/dtable/search}]" class="w-100" fields="tbl-expand title created "  caption="''条目''" />
