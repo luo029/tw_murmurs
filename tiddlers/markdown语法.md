@@ -1,3 +1,1 @@
-[[水平分割线]]
-
-[[代码框]]
+<<table-dynamic filter:"[tag[markdown语法]]" fields:"tbl-expand title" stateTiddler:"exmp03" class:"w-100 thead-dark" caption:"''条目''">>

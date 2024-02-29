@@ -1,8 +1,14 @@
 created: 20240229061215675
 creator: sicheng
-modified: 20240229061537859
+modified: 20240229065453050
 modifier: sicheng
 tags: 微青 大纲
 title: Andy的常青笔记
+type: text/vnd.tiddlywiki
 
-<<table-dynamic filter:"[tag[Andy的常青笔记]]" fields:"tbl-expand title caption-zh" stateTiddler:"exmp03" class:"w-100 thead-dark" caption:"''条目''">>
+\define sv-exclude-tags()  Andy的常青笔记
+
+查找 <$edit-text tiddler="$:/temp/demo/dtable/search" filed=text tag=input default=""/> <$button set="$:/temp/demo/dtable/search" setTo="" tooltip="clear searchbox">x</$button>
+
+
+<$macrocall $name=table-dynamic filter="[tag[Andy的常青笔记] search{$:/temp/demo/dtable/search}]" class="w-100" fields="tbl-expand title tags"  caption="''条目''" />
