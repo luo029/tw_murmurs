@@ -2,7 +2,7 @@
   "description": "Basic client-server edition",
   "plugins": [],
   "themes": [],
-  "languages": [],
+  "languages": ["zh-Hans"],
   "build": {
     "index": [
       "--rendertiddler",
