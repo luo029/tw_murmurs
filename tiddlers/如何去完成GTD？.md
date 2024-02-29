@@ -1,21 +1,29 @@
 > How To Get Things Done
+> 
 > 如何把事情做好
+> 
 > David Allen has formulated the main process behind this approach to personal task management into five major steps:
+> 
 > David Allen 将这种个人任务管理方法背后的主要流程归纳为五个主要步骤：
 > 
 > Capture. Collect everything that needs your attention in a one system
+> 
 > 捕获。将需要您关注的所有内容收集在一个系统中
 > 
 > Clarify. Always clarify what you have collected whether it is actionable or not and derive next steps
+> 
 > 阐明。始终清楚地知晓您收集的内容，无论其是否可操作，并得出后续步骤
 > 
 > Organize. Organize everything that cannot be done right away in a sensible way
+> 
 > 整理。以明智的方式整理所有无法立即完成的事情
 > 
 > Reflect. Regularly review your system to stay in control and focus on the right things
+> 
 > 反思。定期检查您的系统以保持控制并专注于正确的事情
 > 
 > Engage. Take more focused action and make better decisions using your single, trusted system
+> 
 > 参与。使用单一、值得信赖的系统采取更有针对性的行动并做出更好的决策
 
 简单来说，便是：
