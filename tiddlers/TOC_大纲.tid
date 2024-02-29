@@ -1,13 +1,15 @@
 caption-zh: 常青笔记的大纲
 created: 20240228092141517
 creator: sicheng
-modified: 20240228122932370
+modified: 20240229021429456
 modifier: sicheng
 tags: Home TOC
 title: TOC_大纲
 type: text/vnd.tiddlywiki
 
+\define sv-exclude-tags()  大纲  
+
 查找 <$edit-text tiddler="$:/temp/demo/dtable/search" filed=text tag=input default=""/> <$button set="$:/temp/demo/dtable/search" setTo="" tooltip="clear searchbox">x</$button>
 
 
-<$macrocall $name=table-dynamic filter="[tag[大纲] search{$:/temp/demo/dtable/search}]" class="w-100" fields="tbl-expand title created "  caption="''条目''" />
+<$macrocall $name=table-dynamic filter="[tag[大纲] search{$:/temp/demo/dtable/search}]" class="w-100" fields="tbl-expand title created tags"  caption="''条目''" />
