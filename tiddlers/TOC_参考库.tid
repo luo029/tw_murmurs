@@ -1,0 +1,12 @@
+created: 20240305131752131
+creator: sicheng
+modified: 20240305131838843
+modifier: sicheng
+tags: 微青
+title: TOC_参考库
+type: text/vnd.tiddlywiki
+
+查找 <$edit-text tiddler="$:/temp/demo/dtable/search" filed=text tag=input default=""/> <$button set="$:/temp/demo/dtable/search" setTo="" tooltip="clear searchbox">x</$button>
+
+
+<$macrocall $name=table-dynamic filter="[tag[参考库] search{$:/temp/demo/dtable/search}]" class="w-100" fields="tbl-expand title created "  caption="''条目''" />
